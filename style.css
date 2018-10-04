@@ -1,0 +1,113 @@
+body, body * {
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color: #40a63d1a;
+}
+
+/* Write all your CSS here! */
+
+.navbar-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;   
+    height: 65px;
+}
+.img-text{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.logo{
+    height: 45px;
+}
+.tech-text{
+    color: #de0c3f; 
+    font-size: 1.2em;
+    margin-top: 15px;
+
+}
+.t-text{
+    color: #de0c3f; 
+    font-size: 1.4em;
+    font-weight: 500;   
+}
+.k-text{
+    color: #de0c3f; 
+    font-size: 1.4em;
+    font-weight: 500;   
+    
+}
+.cont-img{
+    margin-right: 3%;
+}
+.cont-item{
+    margin-right: 10px;
+}
+/* navebar -2 */
+
+
+.items{
+     color: #b1b0b0;
+     display: flex;
+     justify-content: flex-end;
+     width: 100%;
+     padding: 10px;
+     margin-right: 20px;
+
+}
+.items-child{
+    margin-left: 40px;
+    
+}
+.main-content{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    /* position: relative;  */
+    flex-wrap: wrap;
+}
+
+.left{
+    max-width: 500px;
+    height: 100%;
+    margin-top: 120px;
+    margin-right: 20px;
+    justify-content: center;
+}
+.right{
+    margin-top: 120px;    
+    height: 100%;    
+    max-width: 300px;
+       
+}
+.text-left{
+    background-color: white;    
+
+    
+}
+.text-right{
+    background-color: white;
+    
+}
+.button-tag{
+    background-color: #2da745;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bg-img{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
